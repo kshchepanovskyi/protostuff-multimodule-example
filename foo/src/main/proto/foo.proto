@@ -1,0 +1,10 @@
+package foo;
+
+import "common.proto";
+
+option optimize_for = LITE_RUNTIME;
+option java_package = "io.protostuff.example.multimodule.foo";
+
+message FooRequest {
+    repeated common.KeyValue properties = 1;
+}
