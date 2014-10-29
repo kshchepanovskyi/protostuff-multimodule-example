@@ -35,7 +35,7 @@
                 <configuration>
                     <protoModules>
                         <protoModule>
-                            <source>src/main/proto/foo.proto</source>
+                            <source>src/main/resources/foo.proto</source>
                             <outputDir>target/generated-sources</outputDir>
                             <output>java_bean</output>
                             <encoding>UTF-8</encoding>
